@@ -17,11 +17,13 @@ const Calculation = ({numberOne, numberTwo, children}) => {
         answer = numberOne - numberTwo;
     }
 
+    
+
 
     return(
         <>
         <h4>
-            {numberOne} {children} {numberTwo} = {answer}</h4>
+            {numberOne} {children} {numberTwo} = {Math.round(answer)}</h4>
         </>
     )
 
