@@ -69,13 +69,16 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: background-color 0.5s ease-in-out, width 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
 }
 
 #partOneOfForm:hover, #partTwoOfForm:hover, #partThreeOfForm:hover{
   background-color: #3EB489;
   width: 100%;
+  border-radius: 200px 0 0 200px;
 }
+
+
 
 #partTwoOfForm{
   padding: 0px;
@@ -88,7 +91,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: background-color 0.5s ease-in-out, width 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
 }
 
 #partThreeOfForm{
@@ -102,7 +105,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: background-color 0.5s ease-in-out, width 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
 }
 
 
